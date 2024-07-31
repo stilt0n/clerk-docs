@@ -50,6 +50,8 @@ For native sign in flows (iOS, macOS, watchOS, tvOS) you must at least provide y
 
   ### Get your Apple Team ID
 
+  The **Apple Team ID** is required for web based OAuth flows and recommended for native app flows.
+
   To get your **Apple Team ID**, you must create a new **App ID** in the Apple Developer portal.
 
   1. In another tab, navigate to the [Apple Developer portal](https://developer.apple.com/account).
@@ -63,6 +65,8 @@ For native sign in flows (iOS, macOS, watchOS, tvOS) you must at least provide y
   1. Finally, select **Register**.
 
   ### Get your Apple Services ID
+
+  The **Apple Services ID** is required for web based OAuth flows and recommended for native app flows.
 
   To get your **Apple Services ID**, you must create a new **Services ID** in the Apple Developer portal.
 
@@ -80,9 +84,9 @@ For native sign in flows (iOS, macOS, watchOS, tvOS) you must at least provide y
   1. Select **Continue**. You'll be taken to the confirmation page.
   1. Select **Save**.
 
-  The **Apple Services ID** is required for web based OAuth flows and recommended for native app flows.
-
   ### Get your Apple Private Key and Key ID
+
+  The **Apple Private Key** and **Key ID** are required for web based OAuth flows and recommended for native app flows.
 
   To get your **Apple Private Key** and **Key ID**, you must create a new **Key** in the Apple Developer portal.
 
@@ -95,8 +99,6 @@ For native sign in flows (iOS, macOS, watchOS, tvOS) you must at least provide y
   1. Save the **Key ID** value as you'll need to supply it to Clerk later.
   1. Download the private key as a file (as the instructions point out, be sure to backup the key in a secure place as it cannot be redownloaded later).
   1. Select **Done**.
-
-  The **Apple Private Key** and **Key ID** are required for web based OAuth flows and recommended for native app flows.
 
   ### Configure Email Source for Apple Private Relay
 
@@ -124,6 +126,8 @@ For native sign in flows (iOS, macOS, watchOS, tvOS) you must at least provide y
 
   ### Get your Apple Bundle ID
 
+  The **Apple Bundle ID** is required for native OAuth flows (iOS, macOS, watchOS, tvOS).
+
   You can find your **Apple Bundle ID** in the list of app IDs or manually set it up.
 
   1. Navigate to the [Apple Developer portal](https://developer.apple.com/account).
@@ -136,8 +140,6 @@ For native sign in flows (iOS, macOS, watchOS, tvOS) you must at least provide y
   1. Fill in a description for your **App ID** and a **Bundle ID**. Any value is fine, such as "Clerk demo app" and "clerkdemoapp", respectively. Under **Capabilities**, ensure that **Sign In with Apple** is enabled. Then select **Continue**. You'll be redirected to the **Confirm your App ID** page.
   1. At the top of the page, you'll see your **Bundle ID**. Save this value somewhere secure, as you'll need it to configure your Clerk app. This is your **Apple Bundle ID** in Clerk.
   1. Finally, select **Register**.
-
-  The **Apple Bundle ID** is required for native OAuth flows (iOS, macOS, watchOS, tvOS).
 
   ### Connect your Apple app to your Clerk app
 
