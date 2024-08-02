@@ -1746,8 +1746,7 @@
                   {
                     "title": "Migrate from Clerk Node SDK",
                     "href": "/docs/references/express/migrate-from-node-to-express"
-                  },
-                  { "title": "`requireAuth()`", "href": "/docs/references/express/require-auth" }
+                  }
                 ]
               ]
             },
