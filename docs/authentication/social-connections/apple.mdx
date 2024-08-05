@@ -102,6 +102,8 @@ For native sign in flows (iOS, macOS, watchOS, tvOS) you must at least provide y
 
   ### Configure Email Source for Apple Private Relay
 
+  This is an optional step and is for web based OAuth flows only.
+
   Apple provides a privacy feature called [Hide My Email](https://support.apple.com/en-us/HT210425#hideemail), in which users can sign in to your app with Apple without revealing their real email addresses. Instead, your instance will receive an app-specific email address that will nevertheless forward any emails to the real user's address.
 
   To be able to send emails properly to users with hidden addresses, you must configure an additional setting in the Apple Developer portal.
@@ -116,8 +118,6 @@ For native sign in flows (iOS, macOS, watchOS, tvOS) you must at least provide y
   1. On the completion page, select **Done**.
 
   After this, you should now see the email address added to the list, and it should be marked as verified with a green check icon. If it does not appear as verified yet, DNS propagation may take some time to complete so wait before trying to select the **Reverify SPF** button.
-
-  The **Email Source** and **Apple Private Relay** are required only for web based OAuth flows.
 
   For more info about Apple's Private Relay service, refer to the following documentation:
 
