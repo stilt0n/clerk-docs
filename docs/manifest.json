@@ -1817,7 +1817,7 @@
             {
               "title": "Express.js",
               "collapse": true,
-              "icon": "nodejs",
+              "icon": "expressjs",
               "items": [
                 [
                   { "title": "Overview", "href": "/docs/references/express/overview" },
