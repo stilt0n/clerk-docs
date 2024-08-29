@@ -18,10 +18,12 @@ function prepareVerification(params: PrepareWeb3WalletVerificationParams): Promi
 <Properties>
   - `strategy`
   - `'web3_metamask_signature'`
+  - `'web3_coinbase_signature'`
 
   The verification strategy. Possible strategy values are:
 
   - `web3_metamask_signature`: User will need to sign a message and generate a signature using MetaMask browser extension.
+  - `web3_coinbase_signature`: User will need to sign a message and generate a signature using Coinbase Wallet browser extension.
 </Properties>
 
 ### `prepareVerification()` returns
