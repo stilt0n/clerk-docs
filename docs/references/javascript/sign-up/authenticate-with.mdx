@@ -62,7 +62,7 @@ function authenticateWithRedirect(params: AuthenticateWithRedirectParams): Promi
 
 ## `authenticateWithWeb3()`
 
-Starts a sign-up flow that authenticates the user against their public web3 wallet address.
+Starts a sign-up flow that authenticates the user against their public Web3 wallet address.
 
 ```typescript
 function authenticateWithWeb3(params: AuthenticateWithWeb3Params): Promise<SignUpResource>
@@ -88,7 +88,7 @@ function authenticateWithWeb3(params: AuthenticateWithWeb3Params): Promise<SignU
   - `strategy?`
   - `Web3Strategy`
 
-  The web3 verification strategy.
+  The Web3 verification strategy.
 </Properties>
 
 ### `GenerateSignatureParams`
@@ -97,7 +97,7 @@ function authenticateWithWeb3(params: AuthenticateWithWeb3Params): Promise<SignU
   - `identifier`
   - `string`
 
-  The user's public web3 wallet address.
+  The user's public Web3 wallet address.
 
   ---
 
@@ -111,12 +111,12 @@ function authenticateWithWeb3(params: AuthenticateWithWeb3Params): Promise<SignU
   - `provider?`
   - `Web3Provider`
 
-  The web3 provider to generate the signature with.
+  The Web3 provider to generate the signature with.
 </Properties>
 
 ## `authenticateWithMetamask()`
 
-Starts a sign-up flow that uses the Metamask browser extension to authenticate the user using their public web3 wallet address.
+Starts a sign-up flow that uses the Metamask browser extension to authenticate the user using their public Web3 wallet address.
 
 ```typescript
 function authenticateWithMetamask(
@@ -135,7 +135,7 @@ function authenticateWithMetamask(
 
 ## `authenticateWithCoinbase()`
 
-Starts a sign-up flow that uses the Coinbase Wallet browser extension to authenticate the user using their public web3 wallet address.
+Starts a sign-up flow that uses the Coinbase Wallet browser extension to authenticate the user using their public Web3 wallet address.
 
 ```typescript
 function authenticateWithCoinbase(

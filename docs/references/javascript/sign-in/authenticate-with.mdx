@@ -40,7 +40,7 @@ function authenticateWithRedirect(params: AuthenticateWithRedirectParams): Promi
 
 ### `authenticateWithMetamask()`
 
-Starts a sign-in flow that uses the Metamask browser extension to authenticate the user using their public web3 wallet address.
+Starts a sign-in flow that uses the Metamask browser extension to authenticate the user using their public Web3 wallet address.
 
 ```typescript
 function authenticateWithMetamask(): Promise<SignInResource>
@@ -54,7 +54,7 @@ function authenticateWithMetamask(): Promise<SignInResource>
 
 ### `authenticateWithCoinbase()`
 
-Starts a sign-in flow that uses the Coinbase Wallet browser extension to authenticate the user using their public web3 wallet address.
+Starts a sign-in flow that uses the Coinbase Wallet browser extension to authenticate the user using their public Web3 wallet address.
 
 ```typescript
 function authenticateWithCoinbase(): Promise<SignInResource>
@@ -68,7 +68,7 @@ function authenticateWithCoinbase(): Promise<SignInResource>
 
 ### `authenticateWithWeb3()`
 
-Starts a sign-in flow that authenticates the user against their public web3 wallet address.
+Starts a sign-in flow that authenticates the user against their public Web3 wallet address.
 
 ```typescript
 function authenticateWithWeb3(params: AuthenticateWithWeb3Params): Promise<SignInResource>
@@ -94,7 +94,7 @@ function authenticateWithWeb3(params: AuthenticateWithWeb3Params): Promise<SignI
   - `strategy?`
   - `Web3Strategy`
 
-  The web3 verification strategy.
+  The Web3 verification strategy.
 </Properties>
 
 ##### `GenerateSignatureParams`
@@ -103,7 +103,7 @@ function authenticateWithWeb3(params: AuthenticateWithWeb3Params): Promise<SignI
   - `identifier`
   - `string`
 
-  The user's public web3 wallet address.
+  The user's public Web3 wallet address.
 
   ---
 
@@ -117,7 +117,7 @@ function authenticateWithWeb3(params: AuthenticateWithWeb3Params): Promise<SignI
   - `provider?`
   - `Web3Provider`
 
-    The web3 provider to generate the signature with.
+    The Web3 provider to generate the signature with.
 </Properties>
 
 #### Returns
